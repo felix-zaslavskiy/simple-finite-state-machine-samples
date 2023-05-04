@@ -9,7 +9,6 @@ public class MyCustomEvent implements NamedEntity {
         this.name = name;
     }
 
-    @Override
     public String getName() {
         return name;
     }
