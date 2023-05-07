@@ -90,7 +90,7 @@ public class SimpleFSMDemo {
                 .onExceptionGoTo(END)
                 .withTrace()
                 .withExecutionHook(new Hooks())
-                .withName("Demo <Hi> \" ' &")
+                .withName("Sample FSM")
                 .build();
 
         String graphvizDot = simpleFSM.toGraphviz();
